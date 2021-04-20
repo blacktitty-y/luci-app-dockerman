@@ -5,7 +5,8 @@ LUCI_DEPENDS:=@(aarch64||arm||x86_64) \
 	+luci-compat \
 	+luci-lib-docker \
 	+docker-ce \
-	+ttyd
+	+ttyd \
+	+docker-compose
 LUCI_PKGARCH:=all
 
 PKG_LICENSE:=AGPL-3.0
